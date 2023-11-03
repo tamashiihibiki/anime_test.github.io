@@ -1,4 +1,4 @@
-/* 每个选择器前加上相应的类名 */
+/* 每個選擇器前加上相應的類名 */
 
 .input-container_0 {
     position: relative;
@@ -81,7 +81,15 @@
 	color: #fff;
 	text-transform: uppercase;
     text-align: center;
-	 border: 2px solid #000; /* 添加一个2像素宽的黑色边框 */
+	 border: 2px solid #000; /* 添加一個2圖元寬的黑色邊框 */
+
+	
+	 
+}
+
+.ainme{
+	text-align: left; /* 将特定链接左对齐 */
+	
 }
 
 .fixed-image {
@@ -92,14 +100,27 @@
 }
 
 .bottom-left-text_6 {
-text-align: center; /* 文本水平居中 */
+text-align: center; /* 文本水準居中 */
 }
 
 .top-actions {
     position: relative;
-	width: 921px;
+    width: 921px;
     top: 0px;
     margin: 0 auto;
     z-index: 2;
-    right: -0; /* 粘附在右边 */
+    text-align: right; /* 將文本內容右對齊 */
+	
+	
+}
+
+.top-btn-login {
+    float: right; /* 或其他適當的樣式，以將按鈕右對齊 */
+	transform: skew(135deg); /* 將按鈕傾斜成-135度的平行四邊形，與容器相反的角度 */
+	padding-top: 10px;
+	
+    font-size: 28px;
+	/*border: 2px solid #000; /* 添加一個2圖元寬的黑色邊框 */
+    width: 200px; /* 根据边框的宽度来调整按钮的宽度 */
+    height: 40px; /* 根据边框的宽度来调整按钮的高度 */
 }
