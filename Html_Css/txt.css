@@ -115,12 +115,16 @@ text-align: center; /* 文本水準居中 */
 }
 
 .top-btn-login {
-    float: right; /* 或其他適當的樣式，以將按鈕右對齊 */
-	transform: skew(135deg); /* 將按鈕傾斜成-135度的平行四邊形，與容器相反的角度 */
-	padding-top: 10px;
-	
-    font-size: 28px;
-	/*border: 2px solid #000; /* 添加一個2圖元寬的黑色邊框 */
-    width: 200px; /* 根据边框的宽度来调整按钮的宽度 */
-    height: 40px; /* 根据边框的宽度来调整按钮的高度 */
+    cursor: pointer;
+    position: relative;
+    float: right;
+    background: url(https://assets.chasehistory.net/static/images/btn-top-login.png?2) no-repeat;
+    width: 315px;
+    height: 75px;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    color: #000;
+    border: 0;
 }
